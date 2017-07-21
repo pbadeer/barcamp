@@ -1,0 +1,28 @@
+.hidden-header{
+
+  max-height: 0px;
+  overflow: hidden;
+
+  transition: max-height 200ms ease;
+}
+.hidden-header.is-revealed{
+  max-height: 220px;
+  
+}
+
+@media (--breakpoint-not-small) {
+  .hidden-header{
+    max-height: none;
+    overflow: visible;
+  }
+  .hidden-header.is-revealed{
+    max-height: none;
+  }
+}
+
+@media (--breakpoint-medium) {
+}
+
+@media (--breakpoint-large) {
+}
+

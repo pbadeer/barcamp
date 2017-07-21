@@ -16,7 +16,18 @@
 
   <body>
 
-    <header class="section bg-white tc">
+  <a href="#" class="js-show-nav absolute top-0 right-0 z-max bg-white ph2 pv1 dn-ns">
+    <?xml version="1.0" encoding="utf-8"?>
+    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+       viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve" width="26" fill="#1e122b">
+    <path d="M4,10h24c1.1,0,2-0.9,2-2s-0.9-2-2-2H4C2.9,6,2,6.9,2,8S2.9,10,4,10z M28,14H4c-1.1,0-2,0.9-2,2s0.9,2,2,2h24
+      c1.1,0,2-0.9,2-2S29.1,14,28,14z M28,22H4c-1.1,0-2,0.9-2,2s0.9,2,2,2h24c1.1,0,2-0.9,2-2S29.1,22,28,22z"/>
+    </svg>
+
+  </a>
+
+    <header class="section bg-white tc js-header hidden-header">
+
       <nav>
         <ul class="pa0 mh0 mt0 mb3 mb1-ns mt1-ns ttu fw4 flex-ns justify-center-ns list f6">
           <li class="ph3-ns"><a class="no-underline pv2 db js-scroll-to" href="#about">About</a></li>
@@ -366,6 +377,12 @@
           mouseMotionType: 'gaussian',
         }
       );
+    </script>
+
+    <script type="text/javascript">
+      $(".js-show-nav").click(function(e){
+        $(".js-header").toggleClass("is-revealed");
+      });
     </script>
 
   </body>

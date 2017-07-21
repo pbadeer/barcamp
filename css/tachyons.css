@@ -2157,6 +2157,8 @@ the image, and it should _not_ be changed as you scale the width.
 .question-hand-offset { }
 .question-hand-position { bottom: -15%; left: 100%; margin-left: -13.9%; }
 /* Media Queries */
+.hidden-header { max-height: 0; overflow: hidden; transition: max-height 200ms ease; }
+.hidden-header.is-revealed { max-height: 220px; }
 @media screen and (min-width: 30em) {
  .aspect-ratio-ns { height: 0; position: relative; }
  .aspect-ratio--16x9-ns { padding-bottom: 56.25%; }
@@ -2587,6 +2589,8 @@ the image, and it should _not_ be changed as you scale the width.
  .pa-10-ns { padding: 10%; }
  .ml-50-ns { margin-left: 50%; }
  .bg-top-right-ns { background-repeat: no-repeat; background-position: top right; }
+ .hidden-header { max-height: none; overflow: visible; }
+ .hidden-header.is-revealed { max-height: none; }
 }
 @media screen and (min-width: 30em) and (max-width: 1098px) {
  .aspect-ratio-m { height: 0; position: relative; }

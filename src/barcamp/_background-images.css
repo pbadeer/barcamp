@@ -34,184 +34,184 @@ the image, and it should _not_ be changed as you scale the width.
   left: 101%;
 }
 
-        /* Quadrant 1 */
+/* Quadrant 1 */
 
-        .bg-hand-top{
-          top: -4%;
-          transition-delay: 400ms;
-        }
-        .js-initial.bg-hand-top{
-          top: -62%;
-        }
+.bg-hand-top{
+  top: -4%;
+  transition-delay: 400ms;
+}
+.js-initial.bg-hand-top{
+  top: -62%;
+}
 
-        .bg-leaves-top{
-          top: -30%;
-          left: 36%;
-        }
-        .js-initial.bg-leaves-top{
-          top: -62%;
-        }
+.bg-leaves-top{
+  top: -30%;
+  left: 36%;
+}
+.js-initial.bg-leaves-top{
+  top: -62%;
+}
 
-        .bg-planet{
-          top: 47%; 
-          left: 8%;
-          transition-duration: 800ms;
-          transition-delay: 800ms;
-        }
-        .js-initial.bg-planet{
-          top: 200%;
-        }
+.bg-planet{
+  top: 47%; 
+  left: 8%;
+  transition-duration: 800ms;
+  transition-delay: 800ms;
+}
+.js-initial.bg-planet{
+  top: 200%;
+}
 
-        .bg-planet-stars{
-          top: 47%; 
-          left: 8%;
-          transition-duration: 800ms;
-          transition-delay: 800ms;
-        }
-        .js-initial.bg-planet-stars{
-          top: 200%;
-        }
+.bg-planet-stars{
+  top: 47%; 
+  left: 8%;
+  transition-duration: 800ms;
+  transition-delay: 800ms;
+}
+.js-initial.bg-planet-stars{
+  top: 200%;
+}
 
-        .bg-blob-top{
-          top: 5%; 
-          left: 26%;
-        }
-        .js-initial.bg-blob-top{
+.bg-blob-top{
+  top: 5%; 
+  left: 26%;
+}
+.js-initial.bg-blob-top{
 /*           top: -62%; */
-        }
+}
 
-        /* Quadrant 2 */
+/* Quadrant 2 */
 
-        .bg-hand-right{
-          top: -16%; 
-          right: -15%;
-          transition-delay: 800ms;
-          transition-duration: 600ms;
-        }
-        .js-initial.bg-hand-right{
-          top: -95%;
-          right: -95%;
-        }
+.bg-hand-right{
+  top: -16%; 
+  right: -15%;
+  transition-delay: 800ms;
+  transition-duration: 600ms;
+}
+.js-initial.bg-hand-right{
+  top: -95%;
+  right: -95%;
+}
 
-        .bg-diamond-top{
-          top: -4%; 
-          right: 40%;
-          transition-delay: 1300ms;
-          transition-duration: 100ms;
-        }
-        .js-initial.bg-diamond-top{
-          top: -12%;
-        }
+.bg-diamond-top{
+  top: -4%; 
+  right: 40%;
+  transition-delay: 1300ms;
+  transition-duration: 100ms;
+}
+.js-initial.bg-diamond-top{
+  top: -12%;
+}
 
-        .bg-ripple-right{
-          top: 30%;
-          transition-delay: 1300ms;
-        }
-        .js-initial.bg-ripple-right{
-          right: -30%;
-        }
+.bg-ripple-right{
+  top: 30%;
+  transition-delay: 1300ms;
+}
+.js-initial.bg-ripple-right{
+  right: -30%;
+}
 
-        .bg-blob-right{
-          top: 40%;
-          transition-delay: 100ms;
-        }
-        .js-initial.bg-blob-right{
+.bg-blob-right{
+  top: 40%;
+  transition-delay: 100ms;
+}
+.js-initial.bg-blob-right{
 /*           right: -30%; */
-        }
+}
 
-        /* Quadrant 3 */
+/* Quadrant 3 */
 
-        .bg-hand-bottom{
-          bottom: -7%; 
-          left: 17%;
-          transition-delay: 400ms;
-          transition-duration: 450ms;
-        }
-        .js-initial.bg-hand-bottom{
-          bottom: -65%;
-        }
+.bg-hand-bottom{
+  bottom: -7%; 
+  left: 17%;
+  transition-delay: 400ms;
+  transition-duration: 450ms;
+}
+.js-initial.bg-hand-bottom{
+  bottom: -65%;
+}
 
-        .bg-hand-stars{
-          bottom: 4.5%; 
-          left: 23%;
-          transition-delay: 400ms;
-          transition-duration: 450ms;
-        }
-        .js-initial.bg-hand-stars{
-          bottom: -65%;
-        }
+.bg-hand-stars{
+  bottom: 4.5%; 
+  left: 23%;
+  transition-delay: 400ms;
+  transition-duration: 450ms;
+}
+.js-initial.bg-hand-stars{
+  bottom: -65%;
+}
 
-        .bg-ripple-left{
-          bottom: 15%; 
-          left: 12%;
-          transition-delay: 800ms;
-        }
-        .js-initial.bg-ripple-left{
-          left: -50%;
-        }
+.bg-ripple-left{
+  bottom: 15%; 
+  left: 12%;
+  transition-delay: 800ms;
+}
+.js-initial.bg-ripple-left{
+  left: -50%;
+}
 
-        .bg-diamond-bottom{
-          bottom: 2%; 
-          left: 49%;
-          transition-delay: 1500ms;
-          transition-duration: 200ms;
-        }
-        .js-initial.bg-diamond-bottom{
-          bottom: -20%;
-        }
+.bg-diamond-bottom{
+  bottom: 2%; 
+  left: 49%;
+  transition-delay: 1500ms;
+  transition-duration: 200ms;
+}
+.js-initial.bg-diamond-bottom{
+  bottom: -20%;
+}
 
-        .bg-switch{
-          bottom: 13%; 
-          left: 65%;
-        }
-        .js-initial.bg-switch{
-          bottom: -55%;
-        }
+.bg-switch{
+  bottom: 13%; 
+  left: 65%;
+}
+.js-initial.bg-switch{
+  bottom: -55%;
+}
 
-        .bg-blob-bottom{
-          left: 30%;
-          transition-delay: 200ms;
-        }
-        .js-initial.bg-blob-bottom{
+.bg-blob-bottom{
+  left: 30%;
+  transition-delay: 200ms;
+}
+.js-initial.bg-blob-bottom{
 /*           left: -40%; */
-        }
+}
 
-        .js-initial.bg-leaves-left{
-          left: -30%;
-        }
+.js-initial.bg-leaves-left{
+  left: -30%;
+}
 
-        /* Quadrant 4 */
+/* Quadrant 4 */
 
-        .bg-phone{
-          bottom: 15%; 
-          right: 54%;
-          transition-delay: 400ms;
-        }
-        .js-initial.bg-phone{
-          bottom: -47%;
-        }
+.bg-phone{
+  bottom: 15%; 
+  right: 54%;
+  transition-delay: 400ms;
+}
+.js-initial.bg-phone{
+  bottom: -47%;
+}
 
-        .bg-arrow{
-          bottom: 65%; 
-          right: 25%;
-          transition-delay: 800ms;
-        }
-        .js-initial.bg-arrow{
-          bottom: -9%;
-          right: -4%;
-        }
+.bg-arrow{
+  bottom: 65%; 
+  right: 25%;
+  transition-delay: 800ms;
+}
+.js-initial.bg-arrow{
+  bottom: -9%;
+  right: -4%;
+}
 
-        .bg-blob-under-phone{
-          bottom: 14%; 
-          right: 49%;
-        }
-        .js-initial.bg-blob-under-phone{
+.bg-blob-under-phone{
+  bottom: 14%; 
+  right: 49%;
+}
+.js-initial.bg-blob-under-phone{
 /*           bottom: -40%; */
-        }
+}
 
-        .js-initial.bg-leaves-right{
-          right: -60%;
-        }
+.js-initial.bg-leaves-right{
+  right: -60%;
+}
 
 /* Schedule */
 

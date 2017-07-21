@@ -180,7 +180,21 @@
 
     <section class="pa3 pa5-l bg-purple purple overflow-hidden overflow-visible-l relative-ns" id="questions">
 
-      <div class="relative container-ns flex-ns flex-wrap-ns question-bottom-padding">
+      <div class="relative container-ns flex-ns flex-wrap-ns question-bottom-padding js-questions">
+        <img class="absolute bg-girl-laying w-34 dn db-l" src="images-processed/questions/girl-laying.png" alt="">
+
+        <img class="absolute bg-girl-stars w-37 dn db-l" src="images-processed/questions/girl-stars.png" data-parallaxify-range="-4" alt="">
+
+        <img class="absolute bg-floating-pages w-20 dn db-l" src="images-processed/questions/floating-pages.png" data-parallaxify-range="6" alt="">
+
+        <img class="absolute bg-moon w-6 dn db-l" src="images-processed/questions/moon.png" data-parallaxify-range="-6" alt="">
+
+        <img class="absolute bg-moon-stars w-6 dn db-l" src="images-processed/questions/moon-stars.png" data-parallaxify-range="4" alt="">
+
+        <img class="absolute bg-questions-ripple w-25 dn db-l" src="images-processed/questions/ripple.png" data-parallaxify-range="-6" alt="">
+
+        <img class="absolute bg-questions-diamond w-5 dn db-l" src="images-processed/questions/diamond.png" data-parallaxify-range="4" alt="">
+
         <div class="question-size ml-50-l">
           <h2 class="white tc">
             <div class="f3 fw3">Frequently Asked</div>
@@ -369,6 +383,15 @@
 
     <script type="text/javascript">
       $("#js-hero").parallaxify(
+        {
+          positionProperty: 'transform',
+          responsive: true,
+          motionType: 'performance',
+          mouseMotionType: 'gaussian',
+        }
+      );
+
+      $(".js-questions").parallaxify(
         {
           positionProperty: 'transform',
           responsive: true,

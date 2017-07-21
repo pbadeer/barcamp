@@ -218,3 +218,34 @@ the image, and it should _not_ be changed as you scale the width.
 .bg-schedule{
   background-image: url('../images-processed/schedule-plants.png');
 }
+
+/* Questions */
+
+.bg-girl-laying{
+  top: -155px;
+  left: 0;
+}
+.bg-girl-stars{
+  top: -43px;
+  left: 11px;
+}
+.bg-floating-pages{
+  top: 40px;
+  left: 290px;
+}
+.bg-moon{
+  top: 15px;
+  right: 0;
+}
+.bg-moon-stars{
+  right: -50px;
+  top: -30px;
+}
+.bg-questions-ripple{
+  bottom: -190px;
+  right: -110px;
+}
+.bg-questions-diamond{
+  bottom: 160px;
+  right: 0;
+}

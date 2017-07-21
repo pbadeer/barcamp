@@ -1,17 +1,21 @@
+.w-5 { width: 5%;  }
 .w-6 { width: 6%;  }
 .w-15{ width: 15%; }
 .w-18{ width: 18%; }
 .w-22{ width: 22%; }
+.w-37{ width: 37%; }
 .w-45{ width: 45%; }
 .w-65{ width: 65%; }
 .w-110{ width: 110%; }
 .w-120{ width: 120%; }
 
 @media (--breakpoint-not-small) {
+  .w-5-ns { width: 6%;  }
   .w-6-ns { width: 6%;  }
   .w-15-ns{ width: 15%; }
   .w-18-ns{ width: 18%; }
   .w-22-ns{ width: 22%; }
+  .w-37-ns{ width: 37%; }
   .w-45-ns{ width: 45%; }
   .w-65-ns{ width: 65%; }
   .w-110-ns{ width: 110%; }
@@ -19,10 +23,12 @@
 }
 
 @media (--breakpoint-medium) {
+  .w-5-m { width: 6%;  }
   .w-6-m { width: 6%;  }
   .w-15-m{ width: 15%; }
   .w-18-m{ width: 18%; }
   .w-22-m{ width: 22%; }
+  .w-37-m{ width: 37%; }
   .w-45-m{ width: 45%; }
   .w-65-m{ width: 65%; }
   .w-110-m{ width: 110%; }
@@ -30,10 +36,12 @@
 }
 
 @media (--breakpoint-large) {
+  .w-5-l { width: 6%;  }
   .w-6-l { width: 6%;  }
   .w-15-l{ width: 15%; }
   .w-18-l{ width: 18%; }
   .w-22-l{ width: 22%; }
+  .w-37-l{ width: 37%; }
   .w-45-l{ width: 45%; }
   .w-65-l{ width: 65%; }
   .w-110-l{ width: 110%; }

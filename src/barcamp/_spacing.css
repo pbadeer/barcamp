@@ -1,0 +1,22 @@
+.pa-10 { padding: 10%; }
+
+.ml-50 { margin-left: 50%; }
+
+@media (--breakpoint-not-small) {
+  .pa-10-ns { padding: 10%; }
+  
+  .ml-50-ns { margin-left: 50%; }
+}
+
+@media (--breakpoint-medium) {
+  .pa-10-m { padding: 10%; }
+
+  .ml-50-m { margin-left: 50%; }
+}
+
+@media (--breakpoint-large) {
+  .pa-10-l { padding: 10%; }
+
+  .ml-50-l { margin-left: 50%; }
+}
+

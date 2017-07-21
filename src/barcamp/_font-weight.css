@@ -1,0 +1,13 @@
+.b      { font-weight: 400; }
+
+@media (--breakpoint-not-small) {
+  .b-ns      { font-weight: 400; }
+}
+
+@media (--breakpoint-medium) {
+  .b-m      { font-weight: 400; }
+}
+
+@media (--breakpoint-large) {
+  .b-l      { font-weight: 400; }
+}

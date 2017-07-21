@@ -1,0 +1,25 @@
+.bg-top-right{
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+@media (--breakpoint-not-small) {
+  .bg-top-right-ns{
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
+}
+
+@media (--breakpoint-medium) {
+  .bg-top-right-m{
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
+}
+
+@media (--breakpoint-large) {
+  .bg-top-right-l{
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
+}

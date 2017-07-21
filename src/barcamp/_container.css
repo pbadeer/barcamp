@@ -1,0 +1,26 @@
+.container { }
+
+@media (--breakpoint-not-small) {
+  .container-ns{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1078px;
+  }
+}
+
+@media (--breakpoint-medium) {
+  .container-m{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1078px;
+  }
+}
+
+@media (--breakpoint-large) {
+  .container-l{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1078px;
+  }
+}
+

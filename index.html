@@ -19,10 +19,10 @@
     <header class="section bg-white tc">
       <nav>
         <ul class="pa0 mh0 mt0 mb3 mb1-ns mt1-ns ttu fw4 flex-ns justify-center-ns list f6">
-          <li class="ph3-ns"><a class="no-underline pv2 db" href="#about">About</a></li>
-          <li class="ph3-ns"><a class="no-underline pv2 db" href="#schedule">Schedule</a></li>
-          <li class="ph3-ns"><a class="no-underline pv2 db" href="#questions">FAQs</a></li>
-          <li class="ph3-ns"><a class="no-underline pv2 db" href="#sponsors">Sponsors</a></li>
+          <li class="ph3-ns"><a class="no-underline pv2 db js-scroll-to" href="#about">About</a></li>
+          <li class="ph3-ns"><a class="no-underline pv2 db js-scroll-to" href="#schedule">Schedule</a></li>
+          <li class="ph3-ns"><a class="no-underline pv2 db js-scroll-to" href="#questions">FAQs</a></li>
+          <li class="ph3-ns"><a class="no-underline pv2 db js-scroll-to" href="#sponsors">Sponsors</a></li>
           <li class="ph3-ns">
             <a class="bg-center bg-graphic-purple contain hover-white no-underline white pt2 pb1 ph4-ns db" href="https://www.eventbrite.com/e/barcamp-tickets-35241640696">Register</a>
           </li>
@@ -65,7 +65,7 @@
           <img class="bg-ripple-left js-initial transition absolute w-50 z-2"                 src="images-processed/hero/ripple-left.png" alt="">
           <img data-parallaxify-range="-5" class="bg-diamond-bottom js-initial transition absolute w-15 z-2"              src="images-processed/hero/diamond-bottom.png" alt="">
           <img class="bg-switch js-initial transition absolute w-30 z-2"                      src="images-processed/hero/switch.png" alt="">
-          <img class="bg-blob-bottom js-initial transition absolute w-20 bottom-0 z-1"        src="images-processed/hero/blob-bottom." alt="">
+          <img class="bg-blob-bottom js-initial transition absolute w-20 bottom-0 z-1"        src="images-processed/hero/blob-bottom.png" alt="">
           <img class="bg-leaves-left js-initial transition absolute bottom-0 left-0 w-30 z-2" src="images-processed/hero/leaves-left.png" alt="">
         </div>
       </div>
@@ -348,6 +348,12 @@
   src="https://code.jquery.com/jquery-2.2.4.min.js"
   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
   crossorigin="anonymous"></script>
+
+    <script src="//cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js"></script>
+    <script src="//cdn.jsdelivr.net/jquery.localscroll/1.4.0/jquery.localScroll.min.js"></script>
+    <script type="text/javascript">
+      $.localScroll();
+    </script>
 
     <script src="js/jquery.parallaxify.min.js"></script>
 

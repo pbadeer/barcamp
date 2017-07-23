@@ -2169,6 +2169,7 @@ the image, and it should _not_ be changed as you scale the width.
 /* Media Queries */
 .hidden-header { max-height: 0; overflow: hidden; transition: max-height 200ms ease; }
 .hidden-header.is-revealed { max-height: 220px; }
+.keyboard-height { height: 35vw; }
 @media screen and (min-width: 30em) {
  .aspect-ratio-ns { height: 0; position: relative; }
  .aspect-ratio--16x9-ns { padding-bottom: 56.25%; }

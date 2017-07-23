@@ -298,75 +298,20 @@
         <h2 class="f1 ttu">Sponsors</h2>
 
         <ol class="list ma0 ph5 f3">
-          
+          <% sponsors.forEach(function(group){ %>
 
             <li class="fw4 ttu">
-              Platinum
+              <%= group.title %>
 
               <ul class="list mv3 mh0 pa0 flex-ns justify-center-ns items-center-ns">
-                
-                  <li class="mb4 w-third-ns ph3-ns ph4-l">
-                    <img src="images/sponsors/1-platinum/Agape_White.png" alt="Agape_White.png">
+                <% group.sponsors.forEach(function(sponsor){ %>
+                  <li class="mb4 <%= group.widthClass %> ph3-ns ph4-l">
+                    <img src="images/sponsors/<%= group.path %>/<%= sponsor %>" alt="<%= sponsor %>">
                   </li>  
-                
-                  <li class="mb4 w-third-ns ph3-ns ph4-l">
-                    <img src="images/sponsors/1-platinum/SCO_White.png" alt="SCO_White.png">
-                  </li>  
-                
+                <% }); %>
               </ul>
             </li>
-          
-
-            <li class="fw4 ttu">
-              Gold
-
-              <ul class="list mv3 mh0 pa0 flex-ns justify-center-ns items-center-ns">
-                
-                  <li class="mb4 w-30-ns ph3-ns ph4-l">
-                    <img src="images/sponsors/2-gold/Alamo_White.png" alt="Alamo_White.png">
-                  </li>  
-                
-                  <li class="mb4 w-30-ns ph3-ns ph4-l">
-                    <img src="images/sponsors/2-gold/LiquidSunshine_White.png" alt="LiquidSunshine_White.png">
-                  </li>  
-                
-              </ul>
-            </li>
-          
-
-            <li class="fw4 ttu">
-              Silver
-
-              <ul class="list mv3 mh0 pa0 flex-ns justify-center-ns items-center-ns">
-                
-                  <li class="mb4 w-25-ns ph3-ns ph4-l">
-                    <img src="images/sponsors/3-silver/Hayneedle_White.png" alt="Hayneedle_White.png">
-                  </li>  
-                
-              </ul>
-            </li>
-          
-
-            <li class="fw4 ttu">
-              Bronze
-
-              <ul class="list mv3 mh0 pa0 flex-ns justify-center-ns items-center-ns">
-                
-                  <li class="mb4 w-20-ns ph3-ns ph4-l">
-                    <img src="images/sponsors/4-bronze/Dylan_White.png" alt="Dylan_White.png">
-                  </li>  
-                
-                  <li class="mb4 w-20-ns ph3-ns ph4-l">
-                    <img src="images/sponsors/4-bronze/ESS_White.png" alt="ESS_White.png">
-                  </li>  
-                
-                  <li class="mb4 w-20-ns ph3-ns ph4-l">
-                    <img src="images/sponsors/4-bronze/ScreenInk_White.png" alt="ScreenInk_White.png">
-                  </li>  
-                
-              </ul>
-            </li>
-          
+          <% }); %>
           
         </ol>
 

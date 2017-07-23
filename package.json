@@ -26,7 +26,9 @@
     "normalize.css": "^7.0.0",
     "tachyons-modules": "^1.1.10",
     "tachyons-cli": "^1.0.11",
-    "watch": "^1.0.2"
+    "watch": "^1.0.2",
+    "ls": "^0.2.1",
+    "ejs": "^2.5.6"
   },
   "contributors": [
     {
@@ -41,9 +43,10 @@
   "scripts": {
     "start": "npm run build:watch",
     "mutations": "immutable-css src/tachyons.css --strict",
-    "build": "npm run build:css && npm run build:minify",
+    "build": "npm run barcamp:sponsors && npm run build:css && npm run build:minify",
     "build:css": "tachyons src/tachyons.css > css/tachyons.css",
     "build:minify": "tachyons src/tachyons.css -m > css/tachyons.min.css",
-    "build:watch": "watch \"npm run build\" ./src/"
+    "build:watch": "watch \"npm run build\" ./src/",
+    "barcamp:sponsors" : "node barcamp_sponsors.js"
   }
 }

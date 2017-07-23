@@ -2097,8 +2097,8 @@ a, a:hover, a:focus { transition: color .15s ease-in-out; }
 .ml-50 { margin-left: 50%; }
 .bg-top-right { background-repeat: no-repeat; background-position: top right; }
 /* Header */
-.bg-graphic-purple { background-image: url( "../images-processed/header-button.gif" ); }
-.bg-graphic-purple:hover { background-image: url( "../images-processed/header-button-hover.gif" ); }
+.bg-graphic-purple { background-image: url( "../images/header-button.gif" ); }
+.bg-graphic-purple:hover { background-image: url( "../images/header-button-hover.gif" ); }
 /*
 The BarCamp Logo's relative size needs to change depending on device size.
 Here, we size the div that contains the img of the logo. The img will scale to
@@ -2153,7 +2153,7 @@ the image, and it should _not_ be changed as you scale the width.
 .js-initial.bg-blob-under-phone {/*           bottom: -40%; */ }
 .js-initial.bg-leaves-right { right: -60%; }
 /* Schedule */
-.bg-schedule { background-image: url( '../images-processed/_prog-schedule-plants.gif' ); }
+.bg-schedule { background-image: url( '../images/_prog-schedule-plants.gif' ); }
 /* Questions */
 .bg-girl-laying { top: -155px; left: 0; }
 .bg-girl-stars { top: -43px; left: 11px; }

@@ -1,10 +1,10 @@
 /* Header */
 
 .bg-graphic-purple{
-  background-image: url("../images-processed/header-button.gif");
+  background-image: url("../images/header-button.gif");
 }
 .bg-graphic-purple:hover{
-  background-image: url("../images-processed/header-button-hover.gif");
+  background-image: url("../images/header-button-hover.gif");
 }
 
 /*
@@ -216,7 +216,7 @@ the image, and it should _not_ be changed as you scale the width.
 /* Schedule */
 
 .bg-schedule{
-  background-image: url('../images-processed/_prog-schedule-plants.gif');
+  background-image: url('../images/_prog-schedule-plants.gif');
 }
 
 /* Questions */

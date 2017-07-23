@@ -12,6 +12,10 @@
 
     <script src="https://use.typekit.net/qax2pvs.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+    <script src="https://unpkg.com/progressively/dist/progressively.min.js"></script>
+
+    
   </head>
 
   <body>
@@ -92,7 +96,8 @@
 
     <section class="pa3 pa4-ns pa5-l bg-light-purple white" id="about">
       <div class="container-ns flex-ns items-center-ns">
-        <img class="center db mt3 mb4 w-50 w-40-ns w-40-l mr4-ns" src="images-processed/stay-curious.png" alt="Stay Curious">
+
+        <img class="progressive__img progressive--not-loaded center db mt3 mb4 w-50 w-40-ns w-40-l mr4-ns" data-progressive="images-processed/stay-curious.png" src="images-processed/_prog-stay-curious.gif">
 
         <div>
           <h2 class="f2 fw4">A bit of curiosity goes a long way.</h2>
@@ -111,28 +116,28 @@
 
         <ul class="cf list ma0 pa0">
           <li class="fl-ns w-50-ns ph4-ns w-25-l mb4">
-            <img class="w5" src="images-processed/tracks-entrepreneur.png" alt="">
+            <img class="progressive__img progressive--not-loaded w5" data-progressive="images-processed/tracks-entrepreneur.png" src="images-processed/_prog-tracks-entrepreneur.gif">
 
             <h3 class="f3 ttu b mb1">Entrepreneur</h3>
             <p class="mt0 mb4">Churn, MRR, fundraising, or even the lemonade stand you ran when you were a kid are all fair game. This is a great place to talk about ways to build epic things and/or getting dat paper.</p>
           </li>
 
           <li class="fl-ns w-50-ns ph4-ns w-25-l mb4">
-            <img class="w5" src="images-processed/tracks-creative.png" alt="">
+            <img class="progressive__img progressive--not-loaded w5" data-progressive="images-processed/tracks-creative.png" src="images-processed/_prog-tracks-creative.gif">
 
             <h3 class="f3 ttu b mb1">Creative</h3>
             <p class="mt0 mb4">Designing letterpress invitations, photo blogging your world travels or rebranding a product? This is the track for you to share your creative accomplishments and valuable lessons.</p>
           </li>
 
           <li class="fl-ns w-50-ns ph4-ns w-25-l mb4">
-            <img class="w5" src="images-processed/tracks-technology.png" alt="">
+            <img class="progressive__img progressive--not-loaded w5" data-progressive="images-processed/tracks-technology.png" src="images-processed/_prog-tracks-technology.gif">
 
             <h3 class="f3 ttu b mb1">Technology</h3>
             <p class="mt0 mb4">Building React apps in your free time? Designed an ETL pipeline? Hacked together a Raspberry Pi temperature sensor? Come talk about the hardware and software that you get excited about.</p>
           </li>
 
           <li class="fl-ns w-50-ns ph4-ns w-25-l mb4">
-            <img class="w5" src="images-processed/tracks-kitchen-sink.png" alt="">
+            <img class="progressive__img progressive--not-loaded w5" data-progressive="images-processed/tracks-kitchen-sink.png" src="images-processed/_prog-tracks-kitchen-sink.gif">
 
             <h3 class="f3 ttu b mb1">Kitchen Sink</h3>
             <p class="mt0 mb4">Psst. I hear you made some moonshine. This track is for all those passions that don't quite fit the mold. Mastering juggling, urban planning in your free time and organizing your closet are all welcome topics here!</p>
@@ -142,8 +147,10 @@
     </section>
 
     <section class="flex justify-center-ns pa3 pt3-ns pb0-ns ph0-ns bg-pink purple relative overflow-hidden" id="schedule">
-      <div class="w-20-ns w-30-l cover bg-top-right bg-schedule"></div>
-      <div class="w-20-ns w-30-l cover bg-top-right bg-schedule mirror-portrait order-last"></div>
+
+      <div class="progressive__bg progressive--not-loaded w-20-ns w-30-l cover bg-top-right bg-schedule" data-progressive="images-processed/schedule-plants.png"></div>
+
+      <div class="progressive__bg progressive--not-loaded w-20-ns w-30-l cover bg-top-right bg-schedule mirror-portrait order-last" data-progressive="images-processed/schedule-plants.png"></div>
 
       <div class="w-60-ns w-40-l pv5-ns ph4-ns">
         <h2 class="tc f1 ttu">The Schedule</h2>
@@ -181,7 +188,7 @@
     <section class="pa3 pa5-l bg-purple purple overflow-hidden overflow-visible-l relative-ns" id="questions">
 
       <div class="relative container-ns flex-ns flex-wrap-ns question-bottom-padding js-questions">
-        <img class="absolute bg-girl-laying w-34 dn db-l" src="images-processed/questions/girl-laying.png" alt="">
+        <img class="progressive__img progressive--not-loaded absolute bg-girl-laying w-34 dn db-l" data-progressive="images-processed/questions/girl-laying.png" src="images-processed/questions/_prog-girl-laying.gif">
 
         <img class="absolute bg-girl-stars w-37 dn db-l" src="images-processed/questions/girl-stars.png" data-parallaxify-range="-4" alt="">
 
@@ -191,7 +198,7 @@
 
         <img class="absolute bg-moon-stars w-6 dn db-l" src="images-processed/questions/moon-stars.png" data-parallaxify-range="4" alt="">
 
-        <img class="absolute bg-questions-ripple w-25 dn db-l" src="images-processed/questions/ripple.png" data-parallaxify-range="-6" alt="">
+        <img class="progressive__img progressive--not-loaded absolute bg-questions-ripple w-25 dn db-l" data-progressive="images-processed/questions/ripple.png" src="images-processed/questions/_prog-ripple.gif" data-parallaxify-range="-6">
 
         <img class="absolute bg-questions-diamond w-5 dn db-l" src="images-processed/questions/diamond.png" data-parallaxify-range="4" alt="">
 
@@ -202,7 +209,8 @@
           </h2>
 
           <div class="relative ma4 ma0-ns ma0-l right--2">
-            <img src="images-processed/questions/page-1.png" class="png-shadow" alt="">
+            <img class="progressive__img progressive--not-loaded " data-progressive="images-processed/questions/page-1.png" src="images-processed/questions/_prog-page-1.gif">
+
             <div class="absolute top-0 left-0 pa-10">
               <p class="b mt0 mb1">What am I paying $20 for?</p>
               <ul class="pl3 mt0">
@@ -218,7 +226,8 @@
         </div>
 
         <div class="relative question-size ma4 ma0-ns ma0-l nt6-l left--2 top-2-l left--1-l">
-          <img src="images-processed/questions/page-2.png" class="png-shadow" alt="">
+          <img class="progressive__img progressive--not-loaded " data-progressive="images-processed/questions/page-2.png" src="images-processed/questions/_prog-page-2.gif">
+
           <div class="absolute top-0 left-0 pa-10">
             <p class="b mt0 mb1">How long are the talks?</p>
             <p class="mv0">Each time slot is 25 minutes. Speakers are allowed to use that time however they wish. You could even share one 25-minute time slot with multiple people or set up a panel discussion. It’s probably a good idea to allow time for comments and questions because BarCamp audiences tend to be very participatory!</p>
@@ -226,7 +235,8 @@
         </div>
 
         <div class="relative question-size ma4 ma0-ns ma0-l nt6-l right--2 right-0-l top-2-l">
-          <img src="images-processed/questions/page-3.png" class="png-shadow" alt="">
+          <img class="progressive__img progressive--not-loaded " data-progressive="images-processed/questions/page-3.png" src="images-processed/questions/_prog-page-3.gif">
+
           <div class="absolute top-0 left-0 pa-10">
             <p class="b mt0 mb1">Can I give a sales presentation?</p>
             <p class="mv0">No. To be respectful of our BarCamp attendees, sales presentations or all-out sales pitches are not allowed. Don’t even try it, folks.</p>
@@ -234,7 +244,8 @@
         </div>
 
         <div class="relative question-size ma4 ma0-ns ma0-l nt6-l left--2 left-0-l">
-          <img src="images-processed/questions/page-4.png" class="png-shadow" alt="">
+          <img class="progressive__img progressive--not-loaded " data-progressive="images-processed/questions/page-4.png" src="images-processed/questions/_prog-page-4.gif">re>
+
           <div class="absolute top-0 left-0 pa-10">
             <p class="b mt0 mb1">Do I have to give a talk?</p>
             <p class="mv0">Absolutely not! Many people come to BarCamp just to meet new people and listen to other folks give cool presentations, and that’s great! We encourage people to participate however they are most comfortable. That’s the beauty of the “un-conference.” You can pretty much do whatever you want.</p>
@@ -242,7 +253,8 @@
         </div>
 
         <div class="relative question-size ma4 ma0-ns ma0-l nt6-l right--2 right-0-l left-2-l top-2-l">
-          <img src="images-processed/questions/page-5.png" class="png-shadow" alt="">
+          <img class="progressive__img progressive--not-loaded " data-progressive="images-processed/questions/page-5.png" src="images-processed/questions/_prog-page-5.gif">
+
           <div class="absolute top-0 left-0 pa-10">
             <p class="b mt0 mb1">When do I get my BarCamp t-shirt?</p>
             <p class="mv0">Tees are sponsored by Agape Red and will be available on the day of BarCamp at the merch table.</p>
@@ -251,7 +263,8 @@
         </div>
 
         <div class="relative question-size ma4 ma0-ns ma0-l nt6-l left--2 left-2-l top--2-l">
-          <img src="images-processed/questions/page-6.png" class="png-shadow" alt="">
+          <img class="progressive__img progressive--not-loaded " data-progressive="images-processed/questions/page-6.png" src="images-processed/questions/_prog-page-6.gif">
+
           <div class="absolute top-0 left-0 pa-10">
             <p class="b mt0 mb1">What should I bring?</p>
             <p class="mv0">Your notebook and a pen for taking notes and collecting autographs.</p>
@@ -260,7 +273,8 @@
         </div>
 
         <div class="relative question-size ma4 ma0-ns ma0-l nt6-l right--2 right-0-l left-2-l top-2-l">
-          <img src="images-processed/questions/page-8.png" class="png-shadow" alt="">
+          <img class="progressive__img progressive--not-loaded " data-progressive="images-processed/questions/page-8.png" src="images-processed/questions/_prog-page-8.gif">
+
           <div class="absolute top-0 left-0 pa-10">
             <p class="b mt0 mb1">Is my ticket transferrable?</p>
             <p class="mv0">If you’re unable to attend BarCamp after purchasing your ticket, contact <a href="mailto:finance@nebraska.aiga.org">finance@nebraska.aiga.org</a> to transfer or refund your ticket. Ability to do so expires after July 31, 2017.</p>
@@ -270,12 +284,14 @@
 
       <div class="question-size question-hand-offset absolute-ns bottom-0-ns right-3-ns right-0-l">
         <div class="relative ma4 ma0-ns nt6-l left--2 left-0-l top--2-l">
-          <img src="images-processed/questions/page-7.png" class="png-shadow" alt="">
+          <img class="progressive__img progressive--not-loaded w-100" data-progressive="images-processed/questions/page-7.png" src="images-processed/questions/_prog-page-7.gif">
+
           <div class="absolute top-0 left-0 pa-10">
             <p class="b mt0 mb1">I have a food allergy, do I have to bring my own lunchbox?</p>
             <p class="mv0">Don’t worry about it! We want to make sure that everyone is included at lunch. If you have any allergies or dietary restrictions just send a message to <a href="mailto:barcampcochair@nebraska.aiga.org">barcampcochair@nebraska.aiga.org</a> and we’ll make sure that you are taken care of.</p>
           </div>
-          <img class="absolute mw-none-l question-hand-position" src="images-processed/questions/hand.png" alt="">
+
+          <img class="progressive__img progressive--not-loaded absolute mw-none-l question-hand-position w-100" data-progressive="images-processed/questions/hand.png" src="images-processed/questions/_prog-hand.gif">
         </div>
       </div>
     </section>
@@ -343,8 +359,12 @@
     </footer>
 
     <div class="keyboard-height section bg-purple">
-      <img class="db relative" src="images-processed/footer.png" alt="" style="top: -29.5vw">
+        <img class="progressive__img progressive--not-loaded center db relative w-100" data-progressive="images-processed/footer.png" src="images-processed/_prog-footer.gif" style="top: -29.5vw">
     </div>
+
+    <script type="text/javascript">
+      progressively.init();
+    </script>
 
     <script type="text/javascript">
       var backgroundImages = document.querySelectorAll(".js-initial");

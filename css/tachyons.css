@@ -2153,7 +2153,7 @@ the image, and it should _not_ be changed as you scale the width.
 .js-initial.bg-blob-under-phone {/*           bottom: -40%; */ }
 .js-initial.bg-leaves-right { right: -60%; }
 /* Schedule */
-.bg-schedule { background-image: url( '../images-processed/schedule-plants.png' ); }
+.bg-schedule { background-image: url( '../images-processed/_prog-schedule-plants.gif' ); }
 /* Questions */
 .bg-girl-laying { top: -155px; left: 0; }
 .bg-girl-stars { top: -43px; left: 11px; }
@@ -2170,6 +2170,19 @@ the image, and it should _not_ be changed as you scale the width.
 .hidden-header { max-height: 0; overflow: hidden; transition: max-height 200ms ease; }
 .hidden-header.is-revealed { max-height: 220px; }
 .keyboard-height { height: 35vw; }
+.progressive { overflow: hidden; /*position:relative;*//*background:#efefef*/ }
+.progressive__img {/*width:100%;*//*height:100%;*/ -webkit-transform: translateZ( 0 ); transform: translateZ( 0 ); }
+.progressive--not-loaded { -webkit-filter: blur( 30px ); filter: blur( 30px ); }
+.progressive--is-loaded { -webkit-filter: blur( 20px ); filter: blur( 20px ); -webkit-animation: a .5s both; animation: a .5s both; }
+@-webkit-keyframes a {
+ 0% { -webkit-filter: blur( 20px ); filter: blur( 20px ); }
+ to { -webkit-filter: blur( 0 ); filter: blur( 0 ); }
+}
+@keyframes a {
+ 0% { -webkit-filter: blur( 20px ); filter: blur( 20px ); }
+ to { -webkit-filter: blur( 0 ); filter: blur( 0 ); }
+}
+.progressive { margin: 0; }
 @media screen and (min-width: 30em) {
  .aspect-ratio-ns { height: 0; position: relative; }
  .aspect-ratio--16x9-ns { padding-bottom: 56.25%; }

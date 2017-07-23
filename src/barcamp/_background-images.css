@@ -216,7 +216,7 @@ the image, and it should _not_ be changed as you scale the width.
 /* Schedule */
 
 .bg-schedule{
-  background-image: url('../images-processed/schedule-plants.png');
+  background-image: url('../images-processed/_prog-schedule-plants.gif');
 }
 
 /* Questions */

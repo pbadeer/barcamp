@@ -12,9 +12,6 @@
 
     <script src="https://use.typekit.net/qax2pvs.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
-
-    <script src="https://unpkg.com/progressively/dist/progressively.min.js"></script>
-
     
   </head>
 
@@ -359,73 +356,15 @@
     </footer>
 
     <div class="keyboard-height section bg-purple">
-        <img class="progressive__img progressive--not-loaded center db relative w-100" data-progressive="images-processed/footer.png" src="images-processed/_prog-footer.gif" style="top: -29.5vw">
+      <img class="progressive__img progressive--not-loaded center db relative w-100" data-progressive="images-processed/footer.png" src="images-processed/_prog-footer.gif" style="top: -29.5vw">
     </div>
 
-    <script type="text/javascript">
-      progressively.init();
-    </script>
-
-    <script type="text/javascript">
-      var backgroundImages = document.querySelectorAll(".js-initial");
-      var parallaxElements = document.querySelectorAll("[data-parallaxify-range]");
-      
-      setTimeout(function(){
-        backgroundImages.forEach(function(bg){
-          bg.classList.remove("js-initial");
-        });
-      }, 200);
-
-      setTimeout(function(){
-        backgroundImages.forEach(function(bg){
-          bg.classList.remove("transition");
-          bg.style.transitionDelay = "0ms";
-        });
-
-        parallaxElements.forEach(function(bg){
-          bg.style.transitionDuration = "0ms";
-        });
-      }, 2000);
-    </script>
-
-    <script
-  src="https://code.jquery.com/jquery-2.2.4.min.js"
-  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-  crossorigin="anonymous"></script>
-
-    <script src="//cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js"></script>
-    <script src="//cdn.jsdelivr.net/jquery.localscroll/1.4.0/jquery.localScroll.min.js"></script>
-    <script type="text/javascript">
-      $.localScroll();
-    </script>
-
-    <script src="js/jquery.parallaxify.min.js"></script>
-
-    <script type="text/javascript">
-      $("#js-hero").parallaxify(
-        {
-          positionProperty: 'transform',
-          responsive: true,
-          motionType: 'performance',
-          mouseMotionType: 'gaussian',
-        }
-      );
-
-      $(".js-questions").parallaxify(
-        {
-          positionProperty: 'transform',
-          responsive: true,
-          motionType: 'performance',
-          mouseMotionType: 'gaussian',
-        }
-      );
-    </script>
-
-    <script type="text/javascript">
-      $(".js-show-nav").click(function(e){
-        $(".js-header").toggleClass("is-revealed");
-      });
-    </script>
-
+    <script src="js/vendor/jquery-2.2.4.min.js"></script>
+    <script src="js/vendor/jquery.scrollTo.min.js"></script>
+    <script src="js/vendor/jquery.localScroll.min.js"></script>
+    <script src="js/vendor/jquery.parallaxify.min.js"></script>
+    <script src="js/vendor/progressively.min.js"></script>
+    
+    <script src="js/application.js"></script>
   </body>
 </html>

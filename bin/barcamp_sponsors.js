@@ -12,7 +12,7 @@ module.exports = {
     ]
 
     function sponsorData(sponsorGroup){
-      var sponsorGroupPath = 'images/sponsors/' + sponsorGroup.path + '/*.*'
+      var sponsorGroupPath = 'src/images/sponsors/' + sponsorGroup.path + '/*.*'
 
       return {
         path: sponsorGroup.path,

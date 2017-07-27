@@ -20,7 +20,7 @@
     "build:favicons": "cp src/favicons/*.* build",
     "build:html": "node bin/process_html.js",
     "build:css": "postcss src/css/barcamp.css -o build/barcamp.css -c postcss.config.js",
-    "build:js": "",
+    "build:js": "cp -r src/js build",
     "build:watch": "watch \"npm run build\" ./src/"
   },
   "repository": {

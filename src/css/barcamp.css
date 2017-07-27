@@ -1,3 +1,9 @@
+/* Import Tachyons */
+@import './vendor/tachyons/tachyons';
+
+/* Import Progressively */
+@import './vendor/progressively';
+
 @import './barcamp/_colors';
 @import './barcamp/_utilities';
 @import './barcamp/_base';
@@ -11,5 +17,4 @@
 @import './barcamp/_media_queries';
 @import './barcamp/_header';
 @import './barcamp/_footer';
-@import './barcamp/vendor/_progressively';
 @import './barcamp/_progressive-images';

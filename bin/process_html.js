@@ -1,8 +1,9 @@
 var fs = require('fs');
 var ejs = require('ejs');
+var sponsors = require('./barcamp_sponsors.js');
 
 data = {
-  sponsors: []
+  sponsors: sponsors.list()
 }
 
 ejs.renderFile("src/index.ejs", data, (err, result) => {

@@ -10,3 +10,10 @@ This is the website for barcampomaha.org. Read on to learn how the website is bu
 - Easy to deploy
 - Easy to archive (i.e. for the archive of each year's BarCamp design)
 - Fully static site to reduce the need for server-side caching and database calls
+
+## Scripts
+
+Script           | Process Description
+-------------    | ------------------------------------------------------------
+`npm start`      | When any file in **src/** changes, re-generates the contents of **build/**
+`npm run server` | Runs a local server for the contents of **build/**

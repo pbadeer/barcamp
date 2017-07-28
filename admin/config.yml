@@ -2,7 +2,7 @@ backend:
   name: github
   repo: aiganebraska/barcamp
   branch: master
-  media_folder: "images/uploads"
+media_folder: "images/uploads"
 collections:
   - name: "sponsors" # Used in routes, e.g., /admin/collections/blog
     label: "Sponsors" # Used in the UI

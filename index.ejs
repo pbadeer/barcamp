@@ -310,7 +310,7 @@
             <li class="fw4 ttu">
               <%= group.title %>
 
-              <ul class="list mv3 mh0 pa0 flex-ns justify-center-ns items-center-ns">
+              <ul class="list mv3 mh0 pa0 flex-ns flex-wrap-ns justify-center-ns items-center-ns">
                 <% group.sponsors.forEach(function(sponsor){ %>
                   <li class="mb4 <%= group.widthClass %> ph3-ns ph4-l">
                     <img src="images/sponsors/<%= group.path %>/<%= sponsor %>" alt="<%= sponsor %>">
